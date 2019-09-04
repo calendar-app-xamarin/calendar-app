@@ -10,7 +10,7 @@ namespace CalendarApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new CalendarApp.View.ScheduledEventsList());
         }
 
         protected override void OnStart()
