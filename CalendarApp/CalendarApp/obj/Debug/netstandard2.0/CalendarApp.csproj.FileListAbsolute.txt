@@ -11,6 +11,3 @@
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.dll
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.pdb
-/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.csprojAssemblyReference.cache
-/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.dll
-/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.pdb
