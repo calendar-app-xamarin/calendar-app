@@ -26,6 +26,40 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Syncfusion.Licensing/17.2.0.51": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.Core/17.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "17.2.0.51"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Core.XForms.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfCalendar/17.2.0.51": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Xamarin.Core": "17.2.0.51",
+          "Xamarin.Forms": "3.1.0.697729"
+        },
+        "compile": {
+          "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.dll": {}
+        }
+      },
       "System.Numerics.Vectors/4.5.0": {
         "type": "package",
         "compile": {
@@ -208,6 +242,89 @@
         "lib/netstandard1.0/_._",
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/17.2.0.51": {
+      "sha512": "luFCV+5Ja6gLwu4s8WelqX02vQtta5+k1znD2zabiRsamjFSwsga2LDe0nbI7hVDCygD58FIdJF6slmwrYktPQ==",
+      "type": "package",
+      "path": "syncfusion.licensing/17.2.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netcoreapp3.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.2/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.17.2.0.51.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.Core/17.2.0.51": {
+      "sha512": "Mz/wFpGuEv6PiwDoeG8nbGF9qJYKKUK3P2ZxKL8iI1vgp5bWQ+FvKexfDeNjO5L5FvLzgXbu8617Z9ObH/4Stg==",
+      "type": "package",
+      "path": "syncfusion.xamarin.core/17.2.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.Core.XForms.xml",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.Mac/Syncfusion.Core.XForms.macOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Core.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.Core.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Core.XForms.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP.pri",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/Syncfusion.Core.XForms.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/DropDownIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleCollapsedIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
+        "lib/uap10.0/Syncfusion.Core.XForms.dll",
+        "lib/uap10.0/Syncfusion.Core.XForms.xml",
+        "syncfusion.xamarin.core.17.2.0.51.nupkg.sha512",
+        "syncfusion.xamarin.core.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfCalendar/17.2.0.51": {
+      "sha512": "eD2M9+ONCEub09eE6UoCap1CMjY0ZPSKUvE9QH6icGkX+V0hdBqikxkpswLlE2FAx987si4G2edUTR7W7aap/Q==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfcalendar/17.2.0.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfCalendar.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfCalendar.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfCalendar.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfCalendar.XForms.xml",
+        "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.dll",
+        "lib/netstandard2.0/Syncfusion.SfCalendar.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfCalendar.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfCalendar.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfCalendar.XForms.xml",
+        "syncfusion.xamarin.sfcalendar.17.2.0.51.nupkg.sha512",
+        "syncfusion.xamarin.sfcalendar.nuspec"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -551,28 +668,29 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
+      "Syncfusion.Xamarin.SfCalendar >= 17.2.0.51",
       "Xamarin.Essentials >= 1.1.0",
       "Xamarin.Forms >= 4.1.0.555618"
     ]
   },
   "packageFolders": {
-    "/Users/Shubham/.nuget/packages/": {},
+    "/Users/sohil/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
+      "projectUniqueName": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
       "projectName": "CalendarApp",
-      "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
-      "packagesPath": "/Users/Shubham/.nuget/packages/",
-      "outputPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/",
+      "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
+      "packagesPath": "/Users/sohil/.nuget/packages/",
+      "outputPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Shubham/.config/NuGet/NuGet.Config"
+        "/Users/sohil/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -599,6 +717,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "Syncfusion.Xamarin.SfCalendar": {
+            "target": "Package",
+            "version": "[17.2.0.51, )"
           },
           "Xamarin.Essentials": {
             "target": "Package",

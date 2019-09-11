@@ -24,6 +24,7 @@ background;obj/Debug/res/mipmap-anydpi-v26/icon.xml
 background;obj/Debug/res/mipmap-anydpi-v26/icon_round.xml
 cache-path;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/40/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 color;obj/Debug/res/values/colors.xml
+dimen;/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/44/jl/res/values/dimen.xml
 external-cache-path;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/40/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 external-path;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/40/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj/Debug/res/mipmap-anydpi-v26/icon.xml
@@ -32,12 +33,15 @@ FrameLayout;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.A
 item;obj/Debug/res/values/styles.xml
 LinearLayout;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/layout/bottomtablayout.xml
 paths;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/40/jl/res/xml/xamarin_essentials_fileprovider_file_paths.xml
+resources;/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/44/jl/res/values/dimen.xml
+resources;/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/44/jl/res/values/strings.xml
 resources;obj/Debug/res/values/colors.xml
 resources;obj/Debug/res/values/styles.xml
 set;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/anim/enterfromleft.xml
 set;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/anim/enterfromright.xml
 set;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/anim/exittoleft.xml
 set;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/anim/exittoright.xml
+string;/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/44/jl/res/values/strings.xml
 style;obj/Debug/res/values/styles.xml
 translate;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/anim/enterfromleft.xml
 translate;/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/Debug/lp/41/jl/res/anim/enterfromright.xml
