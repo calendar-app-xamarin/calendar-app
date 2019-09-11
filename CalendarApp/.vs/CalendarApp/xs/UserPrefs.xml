@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{E7535505-AB9B-4C33-A294-9F3130789007}|Default">
-  <MonoDevelop.Ide.ItemProperties.CalendarApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.251BBA46-F3A8-4AC9-BC9D-97D1E2B91B35" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CalendarApp/View/ScheduledEventsList.xaml">
+  <MonoDevelop.Ide.ItemProperties.CalendarApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.38A20F89-F363-4660-A12F-1E8297CD2E19" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalendarApp/App.xaml.cs">
     <Files>
-      <File FileName="CalendarApp/MainPage.xaml.cs" Line="22" Column="1" />
+      <File FileName="CalendarApp/View/MainView.xaml" Line="22" Column="1" />
+      <File FileName="CalendarApp/MainPage.xaml.cs" />
       <File FileName="CalendarApp/MainPage.xaml" />
-      <File FileName="CalendarApp/App.xaml.cs" />
-      <File FileName="CalendarApp/View/ScheduledEventsList.xaml" Line="20" Column="1" />
+      <File FileName="CalendarApp/App.xaml.cs" Line="29" Column="10" />
+      <File FileName="CalendarApp/View/ScheduledEventsList.xaml" />
       <File FileName="CalendarApp/View/ScheduledEventsList.xaml.cs" />
-      <File FileName="CalendarApp/View/MainView.xaml" />
-      <File FileName="CalendarApp/View/MainView.xaml.cs" Line="11" Column="10" />
-      <File FileName="CalendarApp/View/Calendar.xaml" Line="10" Column="1" />
-      <File FileName="CalendarApp/View/Calendar.xaml.cs" Line="2" Column="1" />
-      <File FileName="CalendarApp/View/Notes.xaml" Line="1" Column="1" />
-      <File FileName="CalendarApp/View/Notes.xaml.cs" Line="1" Column="1" />
+      <File FileName="CalendarApp/View/MainView.xaml.cs" />
+      <File FileName="CalendarApp/View/Calendar.xaml" />
+      <File FileName="CalendarApp/View/Calendar.xaml.cs" />
+      <File FileName="CalendarApp/View/Notes.xaml" />
+      <File FileName="CalendarApp/View/Notes.xaml.cs" />
+      <File FileName="CalendarApp/App.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,8 +21,13 @@
           <Node name="CalendarApp" expanded="True">
             <Node name="CalendarApp" expanded="True">
               <Node name="View" expanded="True">
+                <Node name="Calendar.xaml" expanded="True" />
+                <Node name="MainView.xaml" expanded="True" />
                 <Node name="Notes.xaml" expanded="True" />
-                <Node name="ScheduledEventsList.xaml" selected="True" />
+                <Node name="ScheduledEventsList.xaml" expanded="True" />
+              </Node>
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
               </Node>
             </Node>
           </Node>

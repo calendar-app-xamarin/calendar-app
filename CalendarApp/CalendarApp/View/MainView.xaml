@@ -1,6 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" '
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CalendarApp.View.MainView">
-            <NavigationPage Title=""
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:CalendarApp.View"
+            x:Class="CalendarApp.View.MainView">
+    <NavigationPage Title="Events">
+        <x:Arguments>
+            <local:ScheduledEventsList/>
+        </x:Arguments>
+        </NavigationPage>
+    <NavigationPage Title="Calendar">
+        <x:Arguments>
+            <local:Calendar/>
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Notes">
+        <x:Arguments>
+            <local:Notes/>
+        </x:Arguments>
+    </NavigationPage>
 </TabbedPage>

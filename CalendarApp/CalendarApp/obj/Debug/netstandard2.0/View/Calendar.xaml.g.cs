@@ -17,12 +17,12 @@ namespace CalendarApp.View {
     public partial class Calendar : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Syncfusion.SfCalendar.XForms.SfCalendar Calendar;
+        private global::Syncfusion.SfCalendar.XForms.SfCalendar CalendarView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Calendar));
-            Calendar = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfCalendar.XForms.SfCalendar>(this, "Calendar");
+            CalendarView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Syncfusion.SfCalendar.XForms.SfCalendar>(this, "CalendarView");
         }
     }
 }

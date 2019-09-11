@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj": {}
+    "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj": {}
   },
   "projects": {
-    "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj": {
+    "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj",
+        "projectUniqueName": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj",
         "projectName": "CalendarApp.Android",
-        "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj",
-        "packagesPath": "/Users/sohil/.nuget/packages/",
-        "outputPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.Android/obj/",
+        "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/CalendarApp.Android.csproj",
+        "packagesPath": "/Users/Shubham/.nuget/packages/",
+        "outputPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.Android/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "/Users/sohil/.config/NuGet/NuGet.Config"
+          "/Users/Shubham/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "monoandroid90"
@@ -26,8 +26,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj": {
-                "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj"
+              "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj": {
+                "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj"
               }
             }
           }
@@ -66,30 +66,30 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.3.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.555618, )"
+              "version": "[4.2.0.709249, )"
             }
           }
         }
       }
     },
-    "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj": {
+    "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
+        "projectUniqueName": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
         "projectName": "CalendarApp",
-        "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
-        "packagesPath": "/Users/sohil/.nuget/packages/",
-        "outputPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/obj/",
+        "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
+        "packagesPath": "/Users/Shubham/.nuget/packages/",
+        "outputPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/sohil/.config/NuGet/NuGet.Config"
+          "/Users/Shubham/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -123,11 +123,11 @@
             },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.1.0, )"
+              "version": "[1.3.0, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.1.0.555618, )"
+              "version": "[4.2.0.709249, )"
             }
           },
           "imports": [

@@ -4,6 +4,6 @@
              xmlns:calen="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
              x:Class="CalendarApp.View.Calendar">
     <ContentPage.Content>
-        <calen:SfCalendar x:Name="Calendar" />
+        <calen:SfCalendar x:Name="CalendarView" />
     </ContentPage.Content>
 </ContentPage>

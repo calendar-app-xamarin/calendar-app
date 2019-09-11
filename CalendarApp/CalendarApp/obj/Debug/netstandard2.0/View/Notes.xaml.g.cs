@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CalendarApp.View.Notes.xaml", "View/Notes.xaml", typeof(global::CalendarApp.View.ScheduledEventsList))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("CalendarApp.View.Notes.xaml", "View/Notes.xaml", typeof(global::CalendarApp.View.Notes))]
 
 namespace CalendarApp.View {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View/Notes.xaml")]
-    public partial class ScheduledEventsList : global::Xamarin.Forms.ContentPage {
+    public partial class Notes : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ScheduledEventsList));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Notes));
         }
     }
 }

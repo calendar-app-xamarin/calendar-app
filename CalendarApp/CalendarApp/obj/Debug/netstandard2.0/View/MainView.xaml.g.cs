@@ -14,7 +14,7 @@ namespace CalendarApp.View {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View/MainView.xaml")]
-    public partial class MainView : global::Xamarin.Forms.ContentPage {
+    public partial class MainView : global::Xamarin.Forms.TabbedPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
