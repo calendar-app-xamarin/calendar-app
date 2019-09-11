@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{E7535505-AB9B-4C33-A294-9F3130789007}|Default">
   <MonoDevelop.Ide.ItemProperties.CalendarApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.251BBA46-F3A8-4AC9-BC9D-97D1E2B91B35" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CalendarApp/View/Calendar.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalendarApp/View/ScheduledEventsList.xaml">
     <Files>
       <File FileName="CalendarApp/MainPage.xaml.cs" Line="22" Column="1" />
       <File FileName="CalendarApp/MainPage.xaml" />
       <File FileName="CalendarApp/App.xaml.cs" />
-      <File FileName="CalendarApp/View/ScheduledEventsList.xaml" />
+      <File FileName="CalendarApp/View/ScheduledEventsList.xaml" Line="20" Column="1" />
       <File FileName="CalendarApp/View/ScheduledEventsList.xaml.cs" />
       <File FileName="CalendarApp/View/MainView.xaml" />
       <File FileName="CalendarApp/View/MainView.xaml.cs" Line="11" Column="10" />
-      <File FileName="CalendarApp/View/Calendar.xaml" Line="4" Column="1" />
+      <File FileName="CalendarApp/View/Calendar.xaml" Line="10" Column="1" />
       <File FileName="CalendarApp/View/Calendar.xaml.cs" Line="2" Column="1" />
+      <File FileName="CalendarApp/View/Notes.xaml" Line="1" Column="1" />
+      <File FileName="CalendarApp/View/Notes.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,16 +20,16 @@
           <Node name="CalendarApp" expanded="True">
             <Node name="CalendarApp" expanded="True">
               <Node name="View" expanded="True">
-                <Node name="Calendar.xaml" expanded="True" selected="True" />
+                <Node name="Notes.xaml" expanded="True" />
+                <Node name="ScheduledEventsList.xaml" selected="True" />
               </Node>
-              <Node name="App.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.CalendarApp.Android FirstBuild="True" PreferredExecutionTarget="Android.Pixel_2_API_27" />
+  <MonoDevelop.Ide.ItemProperties.CalendarApp.Android AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" FirstBuild="True" PreferredExecutionTarget="Android.Pixel_2_API_27" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
