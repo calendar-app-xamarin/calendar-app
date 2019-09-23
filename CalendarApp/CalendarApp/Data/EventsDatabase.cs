@@ -21,14 +21,14 @@ namespace CalendarApp.Data
             Events_database.InsertAsync(new EventsModel { EventTitle = "Event 3", EventDescription = "Description 3", EventDate = DateTime.Now });
         }
 
-        public async Task<List<NotesModel>> GetAllNotesAsync()
+        public async Task<List<EventsModel>> GetAllEventsAsync()
         {
-            return await Events_database.Table<NotesModel>().ToListAsync();
+            return await Events_database.Table<EventsModel>().ToListAsync();
         }
 
-        public async Task AddNotesAsync(NotesModel newNote)
+        public async Task AddEventsAsync(EventsModel newEvent)
         {
-            await Events_database.InsertAsync(newNote);
+            await Events_database.InsertAsync(newEvent);
         }
     }
 }
