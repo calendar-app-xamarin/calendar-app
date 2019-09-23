@@ -5,9 +5,9 @@
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                 <StackLayout Orientation="Vertical">
                     <Entry x:Name="TitleEntry" Margin="20,20,20,10" Placeholder="Enter Note Title"/>
-                    <Entry x:Name="DetailsEntry" Margin="20,0,20,0" Placeholder="Enter Details"/>
+                    <Editor x:Name="DetailsEntry" Margin="20,0,20,0" Placeholder="Enter Details"/>
                     <Button Margin="20,0,20,0" Text="DONE" Clicked="AddNote"/>
-                    <Button Margin="20,0,20,0" Text="CANCEL"/>
+                    <Button Margin="20,0,20,0" Text="CANCEL" Clicked="CancelAction"/>
                 </StackLayout>
             </StackLayout>
         </ContentView>

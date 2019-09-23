@@ -16,6 +16,8 @@ namespace CalendarApp.View
         protected override void OnAppearing()
         {
             EventslistView.SelectedItem = null;
+            //BindingContext = null;
+            BindingContext = new EventsListViewModel(Navigation);
         }
 
         async void NewEvent(object sender, EventArgs args)

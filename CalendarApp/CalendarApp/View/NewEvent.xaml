@@ -1,14 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="CalendarApp.View.NewEvent">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalendarApp.View.NewEvent"
+             xmlns:sys="clr-namespace:System;assembly=netstandard">
     <ContentPage.Content>
         <ContentView>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                 <StackLayout Orientation="Vertical">
-                    <Entry Margin="20,20,20,10" Placeholder="Enter Event Name"/>
-                    <Entry Margin="20,0,20,0" Placeholder="Enter Details"/>
-                     <DatePicker Date="09/23/2019"/>
-                    <Button Margin="20,0,20,0" Text="DONE"/>
-                    <Button Margin="20,0,20,0" Text="CANCEL"/>
+                    <Entry x:Name="TitleEntry" Margin="20,20,20,10" Placeholder="Enter Event Name"/>
+                    <Editor x:Name="DetailsEntry" Margin="20,0,20,0" Placeholder="Enter Details"/>
+                    <DatePicker x:Name="DatePickerPicker" MinimumDate="{x:Static sys:DateTime.Now}" />
+                    <!--<TimePicker x:Name="TimePickerPicker" Time="{x:Static sys:}" />-->
+                    <Button Margin="20,0,20,0" Text="DONE" Clicked="AddEvent"/>
+                    <Button Margin="20,0,20,0" Text="CANCEL" Clicked="CancelAction"/>
                 </StackLayout>
             </StackLayout>
         </ContentView>

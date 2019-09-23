@@ -16,9 +16,9 @@ namespace CalendarApp.Data
 
             Events_database.CreateTableAsync<EventsModel>().Wait();
 
-            Events_database.InsertAsync(new EventsModel { EventTitle = "Event 1", EventDescription = "Description 1", EventDate = DateTime.Now });
-            Events_database.InsertAsync(new EventsModel { EventTitle = "Event 2", EventDescription = "Description 2", EventDate = DateTime.Now });
-            Events_database.InsertAsync(new EventsModel { EventTitle = "Event 3", EventDescription = "Description 3", EventDate = DateTime.Now });
+            //Events_database.InsertAsync(new EventsModel { EventTitle = "Event 1", EventDescription = "Description 1", EventDate = DateTime.Now });
+            //Events_database.InsertAsync(new EventsModel { EventTitle = "Event 2", EventDescription = "Description 2", EventDate = DateTime.Now });
+            //Events_database.InsertAsync(new EventsModel { EventTitle = "Event 3", EventDescription = "Description 3", EventDate = DateTime.Now });
         }
 
         public async Task<List<EventsModel>> GetAllEventsAsync()

@@ -17,6 +17,9 @@ namespace CalendarApp.View
         protected override void OnAppearing()
         {
             NoteslistView.SelectedItem = null;
+            //BindingContext = null;
+            //BindingContext = new NotesListViewModel(Navigation)
+            BindingContext = new NotesListViewModel(Navigation);
         }
 
         async void NewNote(object sender, EventArgs args)

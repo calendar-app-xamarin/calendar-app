@@ -3,12 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalendarApp.View.Notes"
              BackgroundColor="SeaGreen"
-             Title="Notes">
+             Title="Notes"
+             xmlns:local="clr-namespace:CalendarApp.ViewModel">
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="plus.png" Text="+" Clicked="NewNote"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-            <ListView x:Name="NoteslistView" ItemsSource="{Binding NotesList}" SelectedItem="{Binding NoteSelected}">
+            <ListView x:Name="NoteslistView" ItemsSource="{Binding NotesList, Mode=TwoWay}" SelectedItem="{Binding NoteSelected}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

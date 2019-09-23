@@ -18,12 +18,14 @@ namespace CalendarApp.View
 
         async void AddNote(object sender, EventArgs args)
         {
-            
             Notes_database = MtSql.Current.GetConnectionAsync("notesDb");
             await Notes_database.InsertAsync(new NotesModel { NoteTitle = TitleEntry.Text, NoteContent = DetailsEntry.Text   });
-            
-        //new NotesModel { NoteTitle = "Note 1", NoteContent = "Description 1" }
-        //    await AddNotesAsync;
+            await Navigation.PopAsync();
+        }
+
+        async void CancelAction(object sender, EventArgs args)
+        {
+            await Navigation.PopAsync();
         }
     }
 }

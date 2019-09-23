@@ -16,9 +16,9 @@ namespace CalendarApp.Data
 
             Notes_database.CreateTableAsync<NotesModel>().Wait();
 
-            Notes_database.InsertAsync(new NotesModel { NoteTitle = "Note 1", NoteContent = "Description 1" });
-            Notes_database.InsertAsync(new NotesModel { NoteTitle = "Note 2", NoteContent = "Description 2" });
-            Notes_database.InsertAsync(new NotesModel { NoteTitle = "Note 3", NoteContent = "Description 3" });
+            //Notes_database.InsertAsync(new NotesModel { NoteTitle = "Note 1", NoteContent = "Description 1" });
+            //Notes_database.InsertAsync(new NotesModel { NoteTitle = "Note 2", NoteContent = "Description 2" });
+            //Notes_database.InsertAsync(new NotesModel { NoteTitle = "Note 3", NoteContent = "Description 3" });
         }
 
         public async Task<List<NotesModel>>GetAllNotesAsync()

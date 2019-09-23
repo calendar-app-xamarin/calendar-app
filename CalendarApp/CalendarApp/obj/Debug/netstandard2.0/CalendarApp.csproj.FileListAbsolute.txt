@@ -1,21 +1,4 @@
 <<<<<<< Updated upstream
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/bin/Debug/netstandard2.0/CalendarApp.deps.json
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/bin/Debug/netstandard2.0/CalendarApp.dll
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/bin/Debug/netstandard2.0/CalendarApp.pdb
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/App.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/View/Calendar.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/View/EventDetailsPage.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/View/MainView.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/View/NoteDetailsPage.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/View/Notes.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/View/ScheduledEventsList.xaml.g.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.csproj.CoreCompileInputs.cache
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.AssemblyInfoInputs.cache
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.AssemblyInfo.cs
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/XamlC.stamp
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.dll
-/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.pdb
 ||||||| ancestor
 =======
 >>>>>>> Stashed changes
