@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalendarApp.View.NoteDetailsPage"
-             Title="Note Details" BackgroundColor="BlueViolet">
+             Title="Note Details">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" BackgroundColor="SeaGreen" Spacing="0" Padding="10,2,0,0">
             <StackLayout Padding="8,5,0,0">
