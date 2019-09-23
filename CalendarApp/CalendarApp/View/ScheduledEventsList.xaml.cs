@@ -12,5 +12,15 @@ namespace CalendarApp.View
             InitializeComponent();
             BindingContext = new EventsListViewModel(Navigation);
         }
+
+        protected override void OnAppearing()
+        {
+            EventslistView.SelectedItem = null;
+        }
+
+        public void NewEvent(object sender, EventArgs args)
+        {
+
+        }
     }
 }

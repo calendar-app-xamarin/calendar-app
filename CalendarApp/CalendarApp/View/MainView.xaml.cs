@@ -12,6 +12,7 @@ namespace CalendarApp.View
         {
             InitializeComponent();
             On<Xamarin.Forms.PlatformConfiguration.Android>().SetToolbarPlacement(ToolbarPlacement.Bottom);
+            NavigationPage.SetHasNavigationBar(this, false);
         }
     }
 }

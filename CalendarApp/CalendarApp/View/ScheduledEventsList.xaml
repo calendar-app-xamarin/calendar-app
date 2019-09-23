@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="CalendarApp.View.ScheduledEventsList">
+             x:Class="CalendarApp.View.ScheduledEventsList"
+             Title="Events">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="plus.png" Text="+" Clicked="NewEvent"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <ListView x:Name="listView" ItemsSource="{Binding EventsList}" SelectedItem="{Binding EventSelected}">
+        <ListView x:Name="EventslistView" CachingStrategy="RecycleElement" ItemsSource="{Binding EventsList}" SelectedItem="{Binding EventSelected, Mode=TwoWay}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

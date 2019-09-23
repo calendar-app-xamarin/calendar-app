@@ -13,5 +13,15 @@ namespace CalendarApp.View
             BindingContext = new NotesListViewModel(Navigation);
         }
 
+        protected override void OnAppearing()
+        {
+            NoteslistView.SelectedItem = null;
+        }
+
+        public void NewNote(object sender, EventArgs args)
+        {
+            
+        }
+
     }
 }

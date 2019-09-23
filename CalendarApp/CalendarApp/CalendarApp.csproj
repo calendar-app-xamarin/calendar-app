@@ -20,5 +20,6 @@
     <Folder Include="View\" />
     <Folder Include="ViewModel\" />
     <Folder Include="Data\" />
+    <Folder Include="Images\" />
   </ItemGroup>
 </Project>
