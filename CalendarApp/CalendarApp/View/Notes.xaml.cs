@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using CalendarApp.ViewModel;
 using Xamarin.Forms;
 
 namespace CalendarApp.View
@@ -10,6 +10,8 @@ namespace CalendarApp.View
         public Notes()
         {
             InitializeComponent();
+            BindingContext = new NotesListViewModel(Navigation);
         }
+
     }
 }
