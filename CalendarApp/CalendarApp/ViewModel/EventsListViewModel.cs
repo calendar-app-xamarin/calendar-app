@@ -31,7 +31,7 @@ namespace CalendarApp.ViewModel
 
         private EventsModel _eventSelected;
 
-        public EventsModel Eventelected
+        public EventsModel EventSelected
         {
             get { return _eventSelected; }
             set
