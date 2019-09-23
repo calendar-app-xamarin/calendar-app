@@ -18,9 +18,9 @@ namespace CalendarApp.View
             EventslistView.SelectedItem = null;
         }
 
-        public void NewEvent(object sender, EventArgs args)
+        async void NewEvent(object sender, EventArgs args)
         {
-
+            await Navigation.PushAsync(new NewEvent());
         }
     }
 }

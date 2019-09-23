@@ -22,4 +22,11 @@
     <Folder Include="Data\" />
     <Folder Include="Images\" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="View\AlertView.xaml" />
+    <EmbeddedResource Remove="View\AlertView.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="View\AlertView.xaml.cs" />
+  </ItemGroup>
 </Project>

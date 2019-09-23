@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/bin/Debug/netstandard2.0/CalendarApp.deps.json
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/bin/Debug/netstandard2.0/CalendarApp.dll
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/bin/Debug/netstandard2.0/CalendarApp.pdb
@@ -15,3 +16,6 @@
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.dll
 /Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/Debug/netstandard2.0/CalendarApp.pdb
+||||||| ancestor
+=======
+>>>>>>> Stashed changes

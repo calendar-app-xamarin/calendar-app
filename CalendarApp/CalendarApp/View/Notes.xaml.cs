@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using CalendarApp.ViewModel;
 using Xamarin.Forms;
 
@@ -18,10 +19,9 @@ namespace CalendarApp.View
             NoteslistView.SelectedItem = null;
         }
 
-        public void NewNote(object sender, EventArgs args)
+        async void NewNote(object sender, EventArgs args)
         {
-            
+            await Navigation.PushAsync(new NewNote());
         }
-
     }
 }
