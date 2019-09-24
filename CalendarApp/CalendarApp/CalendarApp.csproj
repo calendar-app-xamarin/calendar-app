@@ -25,8 +25,10 @@
   <ItemGroup>
     <EmbeddedResource Remove="View\AlertView.xaml" />
     <EmbeddedResource Remove="View\AlertView.xaml" />
+    <EmbeddedResource Remove="View\Calendar.xaml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="View\AlertView.xaml.cs" />
+    <Compile Remove="View\Calendar.xaml.cs" />
   </ItemGroup>
 </Project>

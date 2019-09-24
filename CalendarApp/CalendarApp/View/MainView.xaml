@@ -10,7 +10,7 @@
         </NavigationPage>
     <NavigationPage Title="Calendar">
         <x:Arguments>
-            <local:Calendar/>
+            <local:CalendarPage/>
         </x:Arguments>
     </NavigationPage>
     <NavigationPage Title="Notes">

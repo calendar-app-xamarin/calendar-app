@@ -59,5 +59,9 @@ namespace CalendarApp.ViewModel
             _navigation = navigation;
             FetchDataAsync();
         }
+        public EventsListViewModel()
+        {
+            FetchDataAsync();
+        }
     }
 }
