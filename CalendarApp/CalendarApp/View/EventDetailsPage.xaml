@@ -10,8 +10,24 @@
                        Font="22" VerticalOptions="StartAndExpand"/>
                 <Label Text="{Binding Event.EventDescription}" TextColor="Yellow"
                        Font="22" VerticalOptions="StartAndExpand"/>
-                <Label Text="{Binding Event.EventDate}" TextColor="Yellow"
-                       Font="22" VerticalOptions="StartAndExpand"/>
+                <Label TextColor="Yellow"
+                       Font="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event Date: " />
+                            <Span Text="{Binding Event.EventDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="Yellow"
+                       Font="22" VerticalOptions="StartAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event Time: " />
+                            <Span Text="{Binding Event.EventTime, StringFormat='{}{0:hh\\:mm}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

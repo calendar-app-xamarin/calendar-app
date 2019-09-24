@@ -18,7 +18,7 @@ namespace CalendarApp.View
         async void AddEvent(object sender, EventArgs args)
         {
             Events_database = MtSql.Current.GetConnectionAsync("eventsDb");
-            await Events_database.InsertAsync(new EventsModel { EventTitle = TitleEntry.Text, EventDescription = DetailsEntry.Text, EventDate = DatePickerPicker.Date });
+            await Events_database.InsertAsync(new EventsModel { EventTitle = TitleEntry.Text, EventDescription = DetailsEntry.Text, EventDate = DatePickerPicker.Date, EventTime = TimePickerPicker.Time });
             await Navigation.PopAsync();
         }
 
