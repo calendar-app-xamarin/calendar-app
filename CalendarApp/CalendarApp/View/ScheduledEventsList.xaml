@@ -11,6 +11,11 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Clicked="OnDelete"
+                                      CommandParameter="{Binding .}"
+                                      Text="Delete" IsDestructive="True" />
+                        </ViewCell.ContextActions>
                         <ContentView>
                             <StackLayout Orientation="Vertical" BackgroundColor="SeaGreen" Padding="10,2,0,0">
                                 <StackLayout Padding="8,5,0,0">
