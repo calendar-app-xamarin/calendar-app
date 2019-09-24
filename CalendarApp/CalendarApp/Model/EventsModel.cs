@@ -9,14 +9,18 @@ namespace CalendarApp.Model
         public int ID { get; set; }
         public string EventTitle { get; set; }
         public string EventDescription { get; set; }
-        public DateTime EventDate { get; set; }
-        public TimeSpan EventTime { get; set; }
-        public EventsModel(string title, string desc, DateTime date, TimeSpan time)
+        public DateTime EventStartDate { get; set; }
+        public DateTime EventEndDate { get; set; }
+        public TimeSpan EventStartTime { get; set; }
+        public TimeSpan EventEndTime { get; set; }
+        public EventsModel(string title, string desc, DateTime startDate, DateTime endDate, TimeSpan startTime, TimeSpan endTime)
         {
             EventTitle = title;
             EventDescription = desc;
-            EventDate = date;
-            EventTime = time;
+            EventStartDate = startDate;
+            EventStartTime = startTime;
+            EventEndDate = endDate;
+            EventEndTime = endTime;
         }
         public EventsModel()
         {

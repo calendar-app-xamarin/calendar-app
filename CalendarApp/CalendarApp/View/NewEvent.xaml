@@ -7,12 +7,14 @@
         <ContentView>
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
                 <StackLayout Orientation="Vertical">
-                    <Entry x:Name="TitleEntry" Margin="20,20,20,10" Placeholder="Enter Event Name"/>
-                    <Editor x:Name="DetailsEntry" Margin="20,0,20,0" Placeholder="Enter Details"/>
-                    <DatePicker x:Name="DatePickerPicker" MinimumDate="{x:Static sys:DateTime.Now}" />
-                    <TimePicker x:Name="TimePickerPicker" />
-                    <Button Margin="20,0,20,0" Text="DONE" Clicked="AddEvent"/>
-                    <Button Margin="20,0,20,0" Text="CANCEL" Clicked="CancelAction"/>
+                    <Entry x:Name="TitleEntry" Margin="10,10,10,5" Placeholder="Enter Event Name"/>
+                    <Editor x:Name="DetailsEntry" Margin="10,0,10,0" Placeholder="Enter Details"/>
+                    <DatePicker x:Name="StartDatePicker" MinimumDate="{x:Static sys:DateTime.Now}" />
+                    <DatePicker x:Name="EndDatePicker" MinimumDate="{x:Static sys:DateTime.Now}" />
+                    <TimePicker x:Name="StartTimePicker" />
+                    <TimePicker x:Name="EndTimePicker" />
+                    <Button Margin="10,0,10,0" Text="DONE" Clicked="AddEvent"/>
+                    <Button Margin="10,0,10,0" Text="CANCEL" Clicked="CancelAction"/>
                 </StackLayout>
             </StackLayout>
         </ContentView>

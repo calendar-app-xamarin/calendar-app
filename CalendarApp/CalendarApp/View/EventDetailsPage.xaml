@@ -14,8 +14,17 @@
                        Font="22">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Event Date: " />
-                            <Span Text="{Binding Event.EventDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+                            <Span Text="Event Start Date: " />
+                            <Span Text="{Binding Event.EventStartDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="Yellow"
+                       Font="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event End Date: " />
+                            <Span Text="{Binding Event.EventEndDate, StringFormat='{0:MMMM dd, yyyy}'}" />
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
@@ -23,8 +32,17 @@
                        Font="22" VerticalOptions="StartAndExpand">
                     <Label.FormattedText>
                         <FormattedString>
-                            <Span Text="Event Time: " />
-                            <Span Text="{Binding Event.EventTime, StringFormat='{}{0:hh\\:mm}'}" />
+                            <Span Text="Event Start Time: " />
+                            <Span Text="{Binding Event.EventStartTime, StringFormat='{}{0:hh\\:mm}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="Yellow"
+                       Font="22" VerticalOptions="StartAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event End Time: " />
+                            <Span Text="{Binding Event.EventEndTime, StringFormat='{}{0:hh\\:mm}'}" />
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
