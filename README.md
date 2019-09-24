@@ -5,7 +5,7 @@
 | Student ID | Name           |
 |------------|----------------|
 | 218053209  | Sohil Kaushal  |
-|            | Shubham Jindal |
+| 218053165  | Shubham Jindal |
 
 ## Description
 
@@ -23,7 +23,7 @@ For the purpose of our second Assignment we were required to design an applicati
 
 | Rubric Item         | Description    |
 |---------------------|----------------|
-|Project Management   | 		         |
+|Project Management   | 		       |
 |Project Retrospective|                |
 |App Demo             |                |
 |Layout               |                |
