@@ -22,29 +22,51 @@ namespace CalendarApp.View
         public CalendarPage()
         {
             InitializeComponent();
+            //BindingContext = new CalendarEventsViewModel(Navigation);
+            BindingContext = new EventsListViewModel(Navigation);
+            
             FillEvents();
+        }
+
+        protected override void OnAppearing()
+        {
+            BindingContext = new EventsListViewModel(Navigation);
         }
 
         public async Task FetchDataAsync()
         {
-
             var list = await eventsDatabase.GetAllEventsAsync();
             EventsList = new ObservableCollection<EventsModel>(list);
         }
 
-        public void FillEvents()
+        public async Task FillEvents()
         {
+            await FetchDataAsync();
             EventsList = eventsListViewModel.EventsList;
             foreach (var Event in EventsList)
             {
                 DateTime StartDate = Event.EventStartDate;
                 TimeSpan EventStartTime = Event.EventStartTime;
-                DateTime CalendarEventStartDate = new DateTime(StartDate.Day,
-                    StartDate.Month, StartDate.Year, EventStartTime.Hours, EventStartTime.Minutes, EventStartTime.Seconds);
+                DateTime CalendarEventStartDate = new DateTime();
+                CalendarEventStartDate = CalendarEventStartDate.AddDays(StartDate.Day - 1);
+                CalendarEventStartDate = CalendarEventStartDate.AddMonths(StartDate.Month - 1);
+                CalendarEventStartDate = CalendarEventStartDate.AddYears(StartDate.Year - 1);
+                CalendarEventStartDate = CalendarEventStartDate.AddHours(EventStartTime.Hours);
+                CalendarEventStartDate = CalendarEventStartDate.AddMinutes(EventStartTime.Minutes);
+                CalendarEventStartDate = CalendarEventStartDate.AddSeconds(EventStartTime.Seconds);
+                //    new DateTime(StartDate.Day,
+                //StartDate.Month, StartDate.Year, EventStartTime.Hours, EventStartTime.Minutes, EventStartTime.Seconds);
                 DateTime EndDate = Event.EventStartDate;
                 TimeSpan EventEndTime = Event.EventStartTime;
-                DateTime CalendarEventEndDate = new DateTime(EndDate.Day,
-                    EndDate.Month, EndDate.Year, EventEndTime.Hours, EventEndTime.Minutes, EventEndTime.Seconds);
+                DateTime CalendarEventEndDate = new DateTime();
+                CalendarEventEndDate = CalendarEventEndDate.AddDays(EndDate.Day - 1);
+                CalendarEventEndDate = CalendarEventEndDate.AddMonths(EndDate.Month - 1);
+                CalendarEventEndDate = CalendarEventEndDate.AddYears(EndDate.Year - 1);
+                CalendarEventEndDate = CalendarEventEndDate.AddHours(EventEndTime.Hours);
+                CalendarEventEndDate = CalendarEventEndDate.AddMinutes(EventEndTime.Minutes);
+                CalendarEventEndDate = CalendarEventEndDate.AddSeconds(EventEndTime.Seconds);
+                //new DateTime(EndDate.Day,
+                //    EndDate.Month, EndDate.Year, EventEndTime.Hours, EventEndTime.Minutes, EventEndTime.Seconds);
                 CalendarInlineEvent event1 = new CalendarInlineEvent()
                 {
                     StartTime = CalendarEventStartDate,

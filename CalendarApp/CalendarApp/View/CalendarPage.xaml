@@ -5,6 +5,21 @@
              xmlns:calen="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
              Title="Calendar">
     <ContentPage.Content>
-        <calen:SfCalendar x:Name="calendar" />
+        <calen:SfCalendar x:Name="calendar"
+                          ShowInlineEvents="True"
+                          InlineViewMode="Inline"
+                          MaximumEventIndicatorCount="1"
+                          DataSource="{Binding CalendarEventsList}" />
+        <!--<calen:SfCalendar x:Name="calendar" ShowInlineEvents="True" InlineViewMode="Inline" MaximumEventIndicatorCount="1">
+            <calen:SfCalendar.MonthViewSettings>
+                <calen:MonthViewSettings>
+                    <calen:MonthViewSettings.InlineItemTemplate>
+                        <DataTemplate>
+                            <Label Text="{Binding EventsList.Title}" />
+                        </DataTemplate>
+                    </calen:MonthViewSettings.InlineItemTemplate>
+                </calen:MonthViewSettings>
+            </calen:SfCalendar.MonthViewSettings>
+        </calen:SfCalendar>-->
     </ContentPage.Content>
 </ContentPage>
