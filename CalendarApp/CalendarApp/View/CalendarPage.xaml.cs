@@ -31,6 +31,13 @@ namespace CalendarApp.View
         {
             //TODO
             //Refresh the Calendar
+
+            calendar.Refresh();
+            BindingContext = new EventsListViewModel(Navigation);
+            CalendarInlineEvents = new CalendarEventCollection();
+            FillEvents();
+            calendar.DataSource = CalendarInlineEvents;
+            calendar.Refresh();
         }
 
         public async Task FetchDataAsync()

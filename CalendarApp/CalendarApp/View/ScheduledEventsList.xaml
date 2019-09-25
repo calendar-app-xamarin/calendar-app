@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CalendarApp.View.ScheduledEventsList"
-             Title="Events">
+             Title="Events"
+             BackgroundColor="LightGray">
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="plus.png" Text="+" Clicked="NewEvent"/>
     </ContentPage.ToolbarItems>
@@ -17,9 +18,9 @@
                                       Text="Delete" IsDestructive="True" />
                         </ViewCell.ContextActions>
                         <ContentView>
-                            <StackLayout Orientation="Vertical" BackgroundColor="SeaGreen" Padding="10,2,0,0">
+                            <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Padding="10,2,0,0">
                                 <StackLayout Padding="8,5,0,0">
-                                    <Label Text="{Binding EventTitle}" TextColor="Yellow" FontSize="22" VerticalOptions="StartAndExpand"/>
+                                    <Label Text="{Binding EventTitle}" TextColor="Black" FontSize="22" VerticalOptions="StartAndExpand"/>
                                 </StackLayout>
                             </StackLayout>
                         </ContentView>

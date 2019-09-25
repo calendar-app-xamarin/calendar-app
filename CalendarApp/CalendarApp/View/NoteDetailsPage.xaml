@@ -4,11 +4,11 @@
              x:Class="CalendarApp.View.NoteDetailsPage"
              Title="Note Details">
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" BackgroundColor="SeaGreen" Spacing="0" Padding="10,2,0,0">
+        <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Spacing="0" Padding="10,2,0,0">
             <StackLayout Padding="8,5,0,0">
-                <Label Text="{Binding Note.NoteTitle}" TextColor="Yellow"
+                <Label Text="{Binding Note.NoteTitle}" TextColor="Black"
                        Font="22" VerticalOptions="StartAndExpand"/>
-                <Label Text="{Binding Note.NoteContent}" TextColor="Yellow"
+                <Label Text="{Binding Note.NoteContent}" TextColor="Black"
                        Font="22" VerticalOptions="StartAndExpand"/>
             </StackLayout>
         </StackLayout>

@@ -1623,20 +1623,20 @@
     ]
   },
   "packageFolders": {
-    "/Users/Shubham/.nuget/packages/": {}
+    "/Users/sohil/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.iOS/CalendarApp.iOS.csproj",
+      "projectUniqueName": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.iOS/CalendarApp.iOS.csproj",
       "projectName": "CalendarApp.iOS",
-      "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.iOS/CalendarApp.iOS.csproj",
-      "packagesPath": "/Users/Shubham/.nuget/packages/",
-      "outputPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp.iOS/obj/",
+      "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.iOS/CalendarApp.iOS.csproj",
+      "packagesPath": "/Users/sohil/.nuget/packages/",
+      "outputPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/Shubham/.config/NuGet/NuGet.Config"
+        "/Users/sohil/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -1647,8 +1647,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj": {
-              "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj"
+            "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj": {
+              "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj"
             }
           }
         }

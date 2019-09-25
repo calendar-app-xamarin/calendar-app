@@ -26,7 +26,9 @@ namespace CalendarApp.iOS
             global::Xamarin.Forms.Forms.Init();
             SfCalendarRenderer.Init();
             LoadApplication(new App());
-
+            UINavigationBar.Appearance.BarTintColor = UIColor.SystemBlueColor;
+            UINavigationBar.Appearance.TintColor = UIColor.White;
+            UITableView.Appearance.BackgroundColor = UIColor.SystemGray4Color;
             return base.FinishedLaunching(app, options);
         }
     }

@@ -849,23 +849,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/Shubham/.nuget/packages/": {},
+    "/Users/sohil/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
+      "projectUniqueName": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
       "projectName": "CalendarApp",
-      "projectPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
-      "packagesPath": "/Users/Shubham/.nuget/packages/",
-      "outputPath": "/Users/Shubham/Desktop/GitHub/calendar-app/CalendarApp/CalendarApp/obj/",
+      "projectPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/CalendarApp.csproj",
+      "packagesPath": "/Users/sohil/.nuget/packages/",
+      "outputPath": "/Users/sohil/OneDrive - Deakin University/Deakin/Deakin Studies/Year-2-Trimester-2/SIT313/calendar-app/CalendarApp/CalendarApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Shubham/.config/NuGet/NuGet.Config"
+        "/Users/sohil/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
