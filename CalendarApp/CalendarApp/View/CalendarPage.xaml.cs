@@ -18,19 +18,19 @@ namespace CalendarApp.View
         EventsListViewModel eventsListViewModel = new EventsListViewModel();
         public ObservableCollection<EventsModel> EventsList;
         EventsDatabase eventsDatabase = new EventsDatabase();
-        public CalendarEventCollection CalendarInlineEvents { get; set; } = new CalendarEventCollection();
+        public CalendarEventCollection CalendarInlineEvents { get; set; }
         public CalendarPage()
         {
             InitializeComponent();
-            //BindingContext = new CalendarEventsViewModel(Navigation);
             BindingContext = new EventsListViewModel(Navigation);
-            
+            CalendarInlineEvents = new CalendarEventCollection();
             FillEvents();
         }
 
         protected override void OnAppearing()
         {
-            BindingContext = new EventsListViewModel(Navigation);
+            //TODO
+            //Refresh the Calendar
         }
 
         public async Task FetchDataAsync()
@@ -54,8 +54,7 @@ namespace CalendarApp.View
                 CalendarEventStartDate = CalendarEventStartDate.AddHours(EventStartTime.Hours);
                 CalendarEventStartDate = CalendarEventStartDate.AddMinutes(EventStartTime.Minutes);
                 CalendarEventStartDate = CalendarEventStartDate.AddSeconds(EventStartTime.Seconds);
-                //    new DateTime(StartDate.Day,
-                //StartDate.Month, StartDate.Year, EventStartTime.Hours, EventStartTime.Minutes, EventStartTime.Seconds);
+
                 DateTime EndDate = Event.EventStartDate;
                 TimeSpan EventEndTime = Event.EventStartTime;
                 DateTime CalendarEventEndDate = new DateTime();
@@ -65,8 +64,7 @@ namespace CalendarApp.View
                 CalendarEventEndDate = CalendarEventEndDate.AddHours(EventEndTime.Hours);
                 CalendarEventEndDate = CalendarEventEndDate.AddMinutes(EventEndTime.Minutes);
                 CalendarEventEndDate = CalendarEventEndDate.AddSeconds(EventEndTime.Seconds);
-                //new DateTime(EndDate.Day,
-                //    EndDate.Month, EndDate.Year, EventEndTime.Hours, EventEndTime.Minutes, EventEndTime.Seconds);
+
                 CalendarInlineEvent event1 = new CalendarInlineEvent()
                 {
                     StartTime = CalendarEventStartDate,
