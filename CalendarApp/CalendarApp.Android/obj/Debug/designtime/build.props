@@ -1,6 +1,7 @@
 BundleAssemblies=False
 AotAssemblies=False
 AndroidAotMode=
+AndroidEnableProfiledAot=
 ExplicitCrunch=false
 AndroidDexTool=dx
 AndroidLinkTool=
@@ -14,7 +15,7 @@ AndroidSdkPath=/Users/Shubham/Library/Android/sdk
 AndroidNdkPath=
 JavaSdkPath=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home
 AndroidSequencePointsMode=None
-XamarinAndroidVersion=9.4.1-0
+XamarinAndroidVersion=10.0.0-43
 MonoSymbolArchive=False
 AndroidUseLatestPlatformSdk=False
 TargetFrameworkVersion=v9.0

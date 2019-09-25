@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalendarApp.View.CalendarPage"
+             xmlns:calen="clr-namespace:Syncfusion.SfCalendar.XForms;assembly=Syncfusion.SfCalendar.XForms"
+             Title="Calendar">
+    <ContentPage.Content>
+        <calen:SfCalendar x:Name="calendar"
+                          ShowInlineEvents="True"
+                          InlineViewMode="Inline"
+                          MaximumEventIndicatorCount="1"
+                          DataSource="{Binding CalendarEventsList}" />
+    </ContentPage.Content>
+</ContentPage>

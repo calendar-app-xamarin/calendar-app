@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.SfCalendar.XForms.iOS;
 using UIKit;
 
 namespace CalendarApp.iOS
@@ -23,8 +24,11 @@ namespace CalendarApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            SfCalendarRenderer.Init();
             LoadApplication(new App());
-
+            UINavigationBar.Appearance.BarTintColor = UIColor.SystemBlueColor;
+            UINavigationBar.Appearance.TintColor = UIColor.Black;
+            UITableView.Appearance.BackgroundColor = UIColor.SystemGray4Color;
             return base.FinishedLaunching(app, options);
         }
     }

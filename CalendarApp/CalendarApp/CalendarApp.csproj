@@ -10,7 +10,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.1.0.555618" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.0" />
+    <PackageReference Include="Syncfusion.Xamarin.SfCalendar" Version="17.2.0.51" />
+    <PackageReference Include="MarcTron.Sqlite" Version="1.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="View\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="View\AlertView.xaml" />
+    <EmbeddedResource Remove="View\AlertView.xaml" />
+    <EmbeddedResource Remove="View\Calendar.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="View\AlertView.xaml.cs" />
+    <Compile Remove="View\Calendar.xaml.cs" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CalendarApp.View.EventDetailsPage"
+             Title="Event Details">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" BackgroundColor="LightGray" Spacing="0" Padding="10,2,0,0">
+            <StackLayout Padding="8,5,0,0">
+                <Label Text="{Binding Event.EventTitle}" TextColor="Black"
+                       Font="22" VerticalOptions="StartAndExpand"/>
+                <Label Text="{Binding Event.EventDescription}" TextColor="Black"
+                       Font="22" VerticalOptions="StartAndExpand"/>
+                <Label TextColor="Black"
+                       Font="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event Start Date: " />
+                            <Span Text="{Binding Event.EventStartDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="Black"
+                       Font="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event End Date: " />
+                            <Span Text="{Binding Event.EventEndDate, StringFormat='{0:MMMM dd, yyyy}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="Black"
+                       Font="22" VerticalOptions="StartAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event Start Time: " />
+                            <Span Text="{Binding Event.EventStartTime, StringFormat='{}{0:hh\\:mm}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label TextColor="Black"
+                       Font="22" VerticalOptions="StartAndExpand">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Event End Time: " />
+                            <Span Text="{Binding Event.EventEndTime, StringFormat='{}{0:hh\\:mm}'}" />
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
