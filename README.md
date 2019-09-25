@@ -21,14 +21,12 @@ For the purpose of our second Assignment we were required to design an applicati
 
 ## Marking Justification
 
-| Rubric Item         | Description    |
-|---------------------|----------------|
-|Project Management   | 		       |
-|Project Retrospective|                |
-|App Demo             |                |
-|Layout               |                |
-|Platform Capabilities|                |
-|Total                |                |
-
+| Rubric Item           | Description                                                                                                                                                                                                                                                                                              |
+|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Project Management    | The Project has been managed properly throughout the trimester and various tools like Trello  & VCS. Furthermore a detailed video was submitted each week detailing the progress that had been made. Moreover, contributions of all members can be traced back to their GitHub history and Trello Boards |
+| Project Retrospective | The Project retrospective was thoroughly covered in the video submission for the project                                                                                                                                                                                                                 |
+| App Demo              | A detailed application demo has been submitted by the team members as per the criteria                                                                                                                                                                                                                   |
+| Layout                | The layout look good, works in both landscape and portrait mode and works perfectly on tablet devices                                                                                                                                                                                                    |
+| Platform Capabilities | All the criteria are fulfilled as per the rubric on the unit website                                                                                                                                                                                                                                     |
 
 
