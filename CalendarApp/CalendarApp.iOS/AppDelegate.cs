@@ -27,7 +27,7 @@ namespace CalendarApp.iOS
             SfCalendarRenderer.Init();
             LoadApplication(new App());
             UINavigationBar.Appearance.BarTintColor = UIColor.SystemBlueColor;
-            UINavigationBar.Appearance.TintColor = UIColor.White;
+            UINavigationBar.Appearance.TintColor = UIColor.Black;
             UITableView.Appearance.BackgroundColor = UIColor.SystemGray4Color;
             return base.FinishedLaunching(app, options);
         }
