@@ -5,7 +5,7 @@
              Title="Events"
              BackgroundColor="LightGray">
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="plus.png" Text="+" Clicked="NewEvent"/>
+        <ToolbarItem Text="New" Clicked="NewEvent"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <ListView x:Name="EventslistView" CachingStrategy="RecycleElement" ItemsSource="{Binding EventsList}" SelectedItem="{Binding EventSelected, Mode=TwoWay}">

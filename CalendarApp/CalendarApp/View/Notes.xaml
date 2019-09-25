@@ -5,7 +5,7 @@
              Title="Notes"
              BackgroundColor="LightGray">
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="plus.png" Text="+" Clicked="NewNote"/>
+        <ToolbarItem Text="New" Clicked="NewNote"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
             <ListView x:Name="NoteslistView" ItemsSource="{Binding NotesList, Mode=TwoWay}" SelectedItem="{Binding NoteSelected}">

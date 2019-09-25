@@ -20,7 +20,6 @@
     <Folder Include="View\" />
     <Folder Include="ViewModel\" />
     <Folder Include="Data\" />
-    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Remove="View\AlertView.xaml" />

@@ -15,7 +15,6 @@ namespace CalendarApp.View
 {
     public partial class CalendarPage : ContentPage
     {
-        EventsListViewModel eventsListViewModel = new EventsListViewModel();
         public ObservableCollection<EventsModel> EventsList;
         EventsDatabase eventsDatabase = new EventsDatabase();
         public CalendarEventCollection CalendarInlineEvents { get; set; }
@@ -28,16 +27,10 @@ namespace CalendarApp.View
         }
 
         protected override void OnAppearing()
-        {
-            //TODO
-            //Refresh the Calendar
-
-            calendar.Refresh();
+        {   
             BindingContext = new EventsListViewModel(Navigation);
             CalendarInlineEvents = new CalendarEventCollection();
             FillEvents();
-            calendar.DataSource = CalendarInlineEvents;
-            calendar.Refresh();
         }
 
         public async Task FetchDataAsync()
@@ -49,7 +42,6 @@ namespace CalendarApp.View
         public async Task FillEvents()
         {
             await FetchDataAsync();
-            EventsList = eventsListViewModel.EventsList;
             foreach (var Event in EventsList)
             {
                 DateTime StartDate = Event.EventStartDate;
